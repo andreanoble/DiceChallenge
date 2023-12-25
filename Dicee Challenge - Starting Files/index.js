@@ -22,7 +22,9 @@ if(randomNumber1 === randomNumber2){
     message = "Player 2 Wins!";
 }
 //change h1 message
+//use textContent, it is faster and prevents XSS attacks
 document.querySelector("h1").textContent = message;
+//document.querySelector("h1").innerHTML = message;
 
 
 
