@@ -1,3 +1,4 @@
+
 //random number 1 to 6 inclusive for player 1
 let randomNumber1 = Math.floor(Math.random()*6)+1;
 
@@ -17,9 +18,9 @@ let message = "";
 if(randomNumber1 === randomNumber2){
     message = "Draw!";
 }else if(randomNumber1 > randomNumber2){
-    message = "Player 1 Wins!"
+    message = "Player 1 Wins! 🚩";
 } else {
-    message = "Player 2 Wins!";
+    message = "Player 2 Wins! 🚩";
 }
 //change h1 message
 //use textContent, it is faster and prevents XSS attacks
